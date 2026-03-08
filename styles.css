@@ -1,0 +1,182 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+
+/* SIDEBAR */
+
+.sidebar{
+    width: 220px;
+    height: 100vh;
+    background-color: #333;
+    float: left;
+    padding: 20px;
+    color: white;
+}
+
+.sidebar h2{
+    margin-bottom: 20px;
+}
+
+.sidebar ul{
+    list-style: none;
+}
+
+.sidebar li{
+    margin-bottom: 10px;
+}
+
+.sidebar a{
+    display: block;
+    padding: 10px;
+}
+
+
+.sidebar a:hover{
+   color: #007bff;
+}
+
+
+.sidebar a.active{
+   color: #007bff;
+}
+
+
+
+
+.main{
+    margin-left: 220px;
+    padding: 20px;
+}
+
+
+
+
+.header{
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+/* HOME TABLE */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #999;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #e6e6e6;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+
+
+.section {
+    margin-top: 20px;
+}
+
+.section hr {
+    margin: 10px 0;
+}
+
+
+/* GALLERY PAGE */
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 660px;
+    
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    flex-direction: row;
+}
+
+
+/* PROFILE PAGE */
+
+.profile-container {
+    text-align: center;
+    max-width: 750px;
+    margin: auto;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit:contain;
+    margin-bottom: 20px;
+}
+
+.subheading {
+    font-size: 16px;
+   
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 15px;
+    transform: scaleX(-1);
+}
+
+.description {
+    max-width: 500px;
+    margin: 10px auto 30px;
+}
+
+.profile-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    text-align: left;
+}
+
+.profile-grid div {
+    flex: 1;
+}
