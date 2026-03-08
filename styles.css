@@ -121,8 +121,7 @@ th {
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-    max-width: 660px;
-    
+    max-width:fit-content;
 }
 
 .box {
@@ -179,4 +178,5 @@ th {
 
 .profile-grid div {
     flex: 1;
+
 }
